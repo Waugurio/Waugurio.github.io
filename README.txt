@@ -1,31 +1,31 @@
-Solid State by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+=== Engineering Portfolio === 
 
+### Author: 
+- Waugurio23
 
-After a somewhat extended break from HTML5 UP (to work on a secret-ish new project --
-more on that later!) I'm back with a brand new design: Solid State, a slick new multi-
-pager that combines some of the ideas I've played with over at Pixelarity with an "angular"
-sort of look. Hope you dig it :)
+### Description
+Personal technical portfolio presenting academic research, embedded computing experiments, low-level system optimizations, and software development projects. 
+Designed and maintained as a clean, responsive single-page static site for academic and engineering collaboration inquiries.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+### Core Focus Areas
+- Embedded Systems & Hardware-Software Co-Design
+- Low-Level Resource Optimization & Minimalist Unix Environments
+- Physical Computing & Edge Automation Architectures
+- Algorithmic Problem Solving (C++)
 
-(* = not included)
+### Technologies & Libraries Used
+- HTML5, CSS3, Modern JavaScript
+- Bootstrap 5 & Bootstrap Icons
+- Typed.js (Dynamic hero headline)
+- AOS (Animate On Scroll)
+- Isotope & GLightbox (Project gallery filtering and modal previews)
+- Swiper (Touch slider component)
+- Waypoints & PureCounter (Interactive metrics and skill bars)
 
-AJ
-aj@lkn.io | @ajlkn
+### Live Access
+Visit the live portfolio: [https://waugurio.github.io/](https://waugurio.github.io/)
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### Notes:
+This Website was made by me for publishing my projects and my achivements to satisfied job market globaly.
+At the begining, i never do website development until i saw the opportunities for make landing pages, e-commerce, or even for promoting my grandfather's shop.
+And now, i want to excellencing my skill in webdev for side skill beside cyber security and competitive programming.
