@@ -1281,3 +1281,106 @@ section,
   margin-bottom: 0;
   color: var(--heading-color);
 }
+
+/* Custom Insights Horizontal Cards */
+.insight-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.insight-card {
+  display: flex;
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 24px rgba(20, 157, 221, 0.12);
+}
+
+.insight-thumb {
+  flex: 0 0 260px;
+  max-width: 260px;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+
+.insight-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.insight-card:hover .insight-thumb img {
+  transform: scale(1.05);
+}
+
+.insight-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.insight-meta {
+  font-size: 0.8rem;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin-bottom: 0.5rem;
+}
+
+.insight-meta i {
+  margin-right: 0.25rem;
+}
+
+.insight-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  color: var(--heading-color);
+  line-height: 1.35;
+}
+
+.insight-preview {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin-bottom: 1rem;
+}
+
+.insight-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.insight-tags span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: color-mix(in srgb, var(--default-color), transparent 92%);
+  color: var(--heading-color);
+  border-radius: 6px;
+}
+
+/* Penyesuaian Tampilan Layar HP */
+@media (max-width: 768px) {
+  .insight-card {
+    flex-direction: column;
+  }
+  .insight-thumb {
+    flex: 0 0 180px;
+    max-width: 100%;
+    width: 100%;
+    height: 180px;
+  }
+}
+
