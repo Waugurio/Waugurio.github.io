@@ -28,4 +28,4 @@ Visit the live portfolio: [https://waugurio.github.io/](https://waugurio.github.
 ### Notes:
 This Website was made by me for publishing my projects and my achivements to satisfied job market globaly.
 At the begining, i never do website development until i saw the opportunities for make landing pages, e-commerce, or even for promoting my grandfather's shop.
-And now, i want to excellencing my skill in webdev for side skill beside cyber security and competitive programming.
+And now, i want to advancing my skill in webdev for side skill beside cyber security and competitive programming.
