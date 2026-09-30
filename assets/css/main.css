@@ -1384,3 +1384,25 @@ section,
   }
 }
 
+/* Resume Download Button */
+.cv-btn {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: 1.5px solid var(--accent-color);
+  color: var(--accent-color);
+  background: transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.cv-btn:hover {
+  background: var(--accent-color);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(20, 157, 221, 0.25);
+}
+
