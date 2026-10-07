@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Article Title - Tegar Wardana</title>.                                <!-- Judul artikel -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="article-page" style="background-color: #fafafa; color: #292929;">
+
+  <header class="py-3 border-bottom bg-white sticky-top">
+    <div class="container d-flex justify-content-between align-items-center" style="max-width: 800px;">
+      <a href="index.html#services" class="text-decoration-none fw-semibold text-secondary" style="font-size: 0.95rem;">
+        <i class="bi bi-arrow-left me-1"></i> Back to Insights
+      </a>
+      <span class="text-muted small">Tegar Wardana's Notes</span>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <article class="container" style="max-width: 740px;">
+      
+      <!-- Article Header -->                                     <!-- Judul Artikel -->
+      <header class="mb-4">
+        <h1 class="fw-bold mb-3" style="font-family: 'Merriweather', serif; font-size: 2.2rem; line-height: 1.25; color: #111;">
+          Optimizing Low-Level Workflows on Resource-Constrained Architectures
+        </h1>
+        <div class="d-flex align-items-center text-muted small pb-3 border-bottom">
+          <span class="me-3"><i class="bi bi-calendar3 me-1"></i> September 2026</span>           <!-- Tanggal -->
+          <span><i class="bi bi-clock me-1"></i> 5 min read</span>                              <!-- estimasi baca -->
+        </div>
+      </header>
+
+      <!-- Main Thumbnail -->
+      <div class="my-4">
+        <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" alt="Article Visual" class="img-fluid rounded-3 w-100" style="max-height: 380px; object-fit: cover;">
+      </div>
+
+      <!-- Article Content -->
+      <div class="article-content" style="font-family: 'Merriweather', serif; font-size: 1.05rem; line-height: 1.85; color: #242424;">
+        <p>
+          Operating system bloat often dictates hardware deprecation rather than physical failure. In an era where modern desktop environments demand multiple gigabytes of memory merely to reach an idle prompt, older compute nodes with strict hardware limitations are systematically abandoned.
+        </p>
+
+        <h3 class="fw-bold mt-4 mb-3" style="font-family: 'Roboto', sans-serif; font-size: 1.4rem; color: #111;">
+          Analyzing Kernel Footprints
+        </h3>
+        <p>
+          By inspecting baseline background daemons and tailoring minimal Unix systems, memory consumption can be dramatically curbed. Stripping non-essential background layers allows deterministic command execution and leaves the bulk of silicon capability available for compute-heavy local routines rather than cosmetic GUI overhead.
+        </p>
+
+        <blockquote class="p-3 my-4 border-start border-3 border-dark bg-light fst-italic">
+          Software discipline remains the single most effective intervention against premature hardware obsolescence.
+        </blockquote>
+
+        <p>
+          Deterministic execution and strict memory boundary adherence confirm that computational utility is not governed purely by transistor count, but by the architectural intentionality of the software stack.
+        </p>
+      </div>
+
+      <!-- Article Footer Tags -->
+      <div class="pt-4 mt-5 border-top">
+        <span class="badge bg-light text-dark border p-2 me-1">Linux</span>
+        <span class="badge bg-light text-dark border p-2 me-1">System Architecture</span>
+        <span class="badge bg-light text-dark border p-2">Optimization</span>
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="py-4 border-top bg-white text-center text-muted small">
+    <p class="mb-0">© Lanang Tegar Augurio Wardana. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
