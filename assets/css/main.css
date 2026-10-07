@@ -1243,43 +1243,97 @@ section,
   color: var(--heading-color);
 }
 
-/* Custom Skills Cards */
-.skill-card {
+/* Custom Project Cards (Memperbaiki Ukuran Gambar & Box Card) */
+.project-card {
   background: var(--surface-color);
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
-  border-radius: 14px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
-  transition: all 0.3s ease-in-out;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.skill-card:hover {
-  transform: translateY(-5px);
+.project-card:hover {
+  transform: translateY(-4px);
   border-color: var(--accent-color);
-  box-shadow: 0 8px 24px rgba(20, 157, 221, 0.12);
+  box-shadow: 0 8px 22px rgba(20, 157, 221, 0.12);
 }
 
-.skill-icon {
-  height: 56px;
-  width: auto;
-  max-width: 70px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
+.project-img-box {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+  background-color: #f4f6f8;
 }
 
-.skill-card:hover .skill-icon {
-  transform: scale(1.08);
+.project-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
 }
 
-.skill-card h5 {
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 0;
+.project-card:hover .project-img-box img {
+  transform: scale(1.04);
+}
+
+.project-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-header h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
   color: var(--heading-color);
+}
+
+.project-links a {
+  color: var(--default-color);
+  font-size: 1.15rem;
+  margin-left: 0.5rem;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  color: var(--accent-color);
+}
+
+.project-info p {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.project-tags span {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  background: color-mix(in srgb, var(--default-color), transparent 92%);
+  color: var(--heading-color);
+  border-radius: 6px;
 }
 
 /* Custom Insights Horizontal Cards */
@@ -1371,7 +1425,6 @@ section,
   border-radius: 6px;
 }
 
-/* Penyesuaian Tampilan Layar HP */
 @media (max-width: 768px) {
   .insight-card {
     flex-direction: column;
@@ -1405,4 +1458,3 @@ section,
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(20, 157, 221, 0.25);
 }
-
