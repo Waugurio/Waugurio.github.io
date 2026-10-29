@@ -105,7 +105,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Bridging low-level system efficiency, hardware constraints, and computational problem solving.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -188,7 +187,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills &amp; Technologies</h2>
-        <p>Core programming languages, embedded platforms, and computational modeling tools utilized in my research and engineering projects.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -322,7 +320,6 @@
         <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
           <div>
             <h2>Resume</h2>
-            <p class="mb-0">Academic background, competitive informatics record, and core engineering trajectory.</p>
           </div>
           <div>
             <a href="assets/img/CV_Lanang_Tegar.pdf" target="_blank" class="btn btn-outline-primary cv-btn">
@@ -409,7 +406,6 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Projects</h2>
-        <p>Selected engineering systems, algorithmic tools, and technical research implementations.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -420,7 +416,7 @@
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-research">Research</li>
-            <li data-filter=".filter-embedded">Embedded</li>
+            <li data-filter=".filter-electronic">Electronic</li>
             <li data-filter=".filter-software">Software</li>
             <li data-filter=".filter-systems">Systems</li>
           </ul><!-- End Portfolio Filters -->
@@ -575,20 +571,20 @@
 
     </section><!-- /Projects Section -->
 
-        <!-- Insights Section -->
+    <!-- Insights Section -->
     <section id="services" class="services section light-background">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Insights</h2>
-        <p>Technical essays, architectural breakdowns, and research field notes.</p>
+        <p>Here is where I can share what I thought and what I read, especially about technologies and study improvement.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4 justify-content-center">
 
-          <!-- Article Card 1 -->
+          <!-- Artikel 1 (Selalu Tampil) -->
           <div class="col-lg-10">
             <a href="service-details.html" class="insight-card-link">
               <div class="insight-card">
@@ -601,7 +597,7 @@
                   </div>
                   <h3 class="insight-title">Optimizing Low-Level Workflows on Resource-Constrained Architectures</h3>
                   <p class="insight-preview">
-                    Operating system bloat often dictates hardware deprecation rather than physical failure. By evaluating memory allocation strategies, kernel overhead, and deterministic execution routines, lightweight Unix configurations can effectively revive legacy silicon for sustained utility.
+                    Operating system bloat often dictates hardware deprecation rather than physical failure. By evaluating memory allocation strategies...
                   </p>
                   <div class="insight-tags">
                     <span>Linux</span>
@@ -611,9 +607,9 @@
                 </div>
               </div>
             </a>
-          </div><!-- End Article Card 1 -->
+          </div>
 
-          <!-- Article Card 2 -->
+          <!-- Artikel 2 (Selalu Tampil) -->
           <div class="col-lg-10">
             <a href="service-details.html" class="insight-card-link">
               <div class="insight-card">
@@ -626,7 +622,7 @@
                   </div>
                   <h3 class="insight-title">Deterministic Telemetry Design: Managing Sleep States in ESP32</h3>
                   <p class="insight-preview">
-                    Long-term field deployment demands strict microampere budgeting. Analyzing power draw during active RF transmission loops versus deep sleep retention cycles reveals critical design tradeoffs in micro-climate telemetry architectures.
+                    Long-term field deployment demands strict microampere budgeting. Analyzing power draw during active RF transmission loops...
                   </p>
                   <div class="insight-tags">
                     <span>Embedded Systems</span>
@@ -636,12 +632,57 @@
                 </div>
               </div>
             </a>
-          </div><!-- End Article Card 2 -->
+          </div>
+
+          <!-- Area Artikel Lama (Sembunyi) -->
+          <div class="collapse w-100" id="moreArticles">
+            <div class="row gy-4 justify-content-center">
+              
+              <!-- Artikel 3 (Contoh) -->
+              <div class="col-lg-10">
+                <a href="service-details.html" class="insight-card-link">
+                  <div class="insight-card">
+                    <div class="insight-thumb">
+                      <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" alt="Article Thumbnail" class="img-fluid">
+                    </div>
+                    <div class="insight-body">
+                      <div class="insight-meta">
+                        <span class="reading-time"><i class="bi bi-clock"></i> 6 min read</span>
+                      </div>
+                      <h3 class="insight-title">The Metabolic Overhead of Compute</h3>
+                      <p class="insight-preview">
+                        Biological constraints mirror hardware throttling. When peripheral systems are pushed beyond metabolic tolerance, cognitive throughput degrades...
+                      </p>
+                      <div class="insight-tags">
+                        <span>Bioinformatics</span>
+                        <span>Optimization</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Masukkan Artikel 4, 5, dst di sini -->
+
+            </div>
+          </div>
+
+          <!-- Tombol Show More -->
+          <div class="col-12 text-center mt-4">
+            <button class="btn btn-outline-primary cv-btn" type="button" data-bs-toggle="collapse" data-bs-target="#moreArticles" aria-expanded="false" aria-controls="moreArticles">
+              Show More Articles <i class="bi bi-chevron-down ms-1"></i>
+            </button>
+          </div>
+          <!-- Tombol Show More / Less -->
+          <div class="col-12 text-center mt-4">
+            <button id="btnArticlesToggle" class="btn btn-outline-primary cv-btn" type="button" data-bs-toggle="collapse" data-bs-target="#moreArticles" aria-expanded="false" aria-controls="moreArticles">
+              <span id="btnArticlesText">Show More Articles</span>
+              <i id="btnArticlesIcon" class="bi bi-chevron-down ms-1"></i>
+            </button>
+          </div>
 
         </div>
-
       </div>
-
     </section><!-- /Insights Section -->
     
 
@@ -711,7 +752,7 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Lanang Tegar Augurio Wardana</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Tegar Wardana</strong> <span>All Rights Reserved</span></p>
       </div>
     </div>
 

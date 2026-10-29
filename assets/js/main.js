@@ -218,4 +218,22 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  // Toggle Text dan Icon Show More/Less Insights
+  const moreArticles = document.getElementById('moreArticles');
+  const btnArticlesText = document.getElementById('btnArticlesText');
+  const btnArticlesIcon = document.getElementById('btnArticlesIcon');
+
+  if (moreArticles && btnArticlesText && btnArticlesIcon) {
+    moreArticles.addEventListener('show.bs.collapse', function () {
+      btnArticlesText.textContent = 'Show Less';
+      btnArticlesIcon.classList.remove('bi-chevron-down');
+      btnArticlesIcon.classList.add('bi-chevron-up');
+    });
+
+    moreArticles.addEventListener('hide.bs.collapse', function () {
+      btnArticlesText.textContent = 'Show More Articles';
+      btnArticlesIcon.classList.remove('bi-chevron-up');
+      btnArticlesIcon.classList.add('bi-chevron-down');
+    });
+  }
 })();
